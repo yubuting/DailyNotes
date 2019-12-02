@@ -39,8 +39,6 @@ export const getObjInValue = (obj, pathString) => {
  * @param {*} param1 
  * 带有callback方法的使用操作
  * 使用方法
- * import back from back.js
- * back(() => {})
  */
 export default function (callback = function() {}, { prevent = false, replace = false } = {}) {
   const title = '你所需要的title'
